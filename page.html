@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<p id = name>
+
+</p>
+<p id = isImposter>
+
+</p>
+<p id = engineVersion>
+
+</p>
+
+<script>
+    window.onload = function(){
+        var xhr =  new XMLHttpRequest();
+        xhr.onprogress = function(ev){
+            var response = JSON.parse(xhr.responseText);
+            console.log(response)
+            $("name").innerText = response.name;
+            $("isImposter").innerText = response.isImpostor;
+            $("engineVersion").innerText = response.engineVersion;
+        }
+        xhr.open("GET","/api" + window.location.pathname)
+        xhr.send()
+    }
+    function $(id){
+        return document.getElementById(id);
+    }
+</script>
