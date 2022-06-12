@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <title>The Visual Novel Database | vndb</title>
     <link rel="stylesheet" href="./angel.css" type="text/css" media="all" />
-    <base href="https://vndb.org/" />
+    <!--<base href="https://vndb.org/" />-->
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 
     <link rel="search" type="application/opensearchdescription+xml" title="VNDB Visual Novel Search" href="https://vndb.org/opensearch.xml" />
@@ -21,7 +21,19 @@
     <meta property="og:url" content="https://vndb.org/" />
 </head>
 
-<body>
+<script>
+    function farter() {
+        console.log("five");
+        var lildudes = [
+            "boney.gif", "boney2.gif",
+        ];
+        var guy = Math.floor(Math.random() * lildudes.length);
+        document.getElementById("amongus").src = ('img/' + lildudes[guy]);
+        console.log(document.getElementById("amongus"));
+    }
+</script>
+
+<body onload="farter()">
     <div id="bgright"> </div>
     <div id="header">
         <h1><a href="/">RPGMAKER DATABASE</a></h1>
@@ -149,6 +161,7 @@
             </div>
         </div>
         <div id="footer">"<a href="/v1399" style="text-decoration: none">PUT MADOTSUKI HERE</a>&quot;<br /><a href="/d7">THE DEVS OF THIS SITE</a> | <a href="mailto:contact@vndb.org">contact@RMDB.org</a></div>
+        <img id="amongus" />
     </div>
 </body>
 
