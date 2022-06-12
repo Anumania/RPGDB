@@ -1,5 +1,24 @@
 <!DOCTYPE html>
+<style>
 
+    #balls{
+        
+    }
+    #square {
+        width: 30%;
+        height:30%;
+        background-color: aqua;
+        margin:auto;
+    }
+</style>
+<div id = "balls">
+    <p>
+        i am here
+    </p>
+    <div id = "square">
+
+    </div>
+</div>
 <p id = name>
 
 </p>
@@ -14,6 +33,7 @@
     window.onload = function(){
         var xhr =  new XMLHttpRequest();
         xhr.onprogress = function(ev){
+            console.log(xhr.responseText)
             var response = JSON.parse(xhr.responseText);
             console.log(response)
             $("name").innerText = response.name;
