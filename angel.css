@@ -29,7 +29,7 @@ img {
 
 a,
 .fake_link {
-    color: #7bd;
+    color: #F02B6A;
     text-decoration: none;
     cursor: pointer;
     border-bottom: 1px solid transparent
@@ -47,7 +47,7 @@ summary {
 table tr.odd,
 table.stripe tbody tr:nth-child(odd):not(.nostripe),
 .docs table tbody tr:nth-child(odd) {
-    background: rgba(7, 28, 48, 0.737255)
+    background: rgba(48, 7, 30, 0.737)
 }
 
 #bgright {
@@ -148,7 +148,7 @@ div.notice h2 {
 #dd_box {
     position: absolute;
     left: 0px;
-    border: 1px solid #258;
+    border: 1px solid #9E3264;
     background-color: #0d2741;
     z-index: 2
 }
@@ -180,13 +180,13 @@ div.notice h2 {
 }
 
 #dd_box li a:hover {
-    background: rgba(7, 28, 48, 0.737255)
+    background: rgba(48, 7, 30, 0.737)
 }
 
 #ds_box {
     position: absolute;
     top: 0;
-    border: 1px solid #258;
+    border: 1px solid #9E3264;
     border-top: none;
     background-color: #0d2741;
     cursor: pointer;
@@ -198,7 +198,7 @@ div.notice h2 {
 }
 
 #ds_box tr.selected {
-    background: rgba(7, 28, 48, 0.737255)
+    background: rgba(48, 7, 30, 0.737)
 }
 
 #ds_box table {
@@ -251,7 +251,7 @@ div.notice h2 {
     position: absolute;
     right: -10px;
     top: 0;
-    border: 1px solid #258;
+    border: 1px solid #9E3264;
     background-color: #0d2741;
     z-index: 1000;
     margin: 0;
@@ -288,7 +288,7 @@ div.notice h2 {
 
 .elm_dd ul li a.active,
 .elm_dd ul li a:hover {
-    background: rgba(7, 28, 48, 0.737255)
+    background: rgba(48, 7, 30, 0.737)
 }
 
 .elm_dd ul li p {
@@ -304,9 +304,9 @@ div.notice h2 {
     box-sizing: border-box;
     height: 21px;
     padding: 1px 15px 0 7px;
-    border: 1px solid #258;
+    border: 1px solid #9E3264;
     border-bottom: none;
-    background-color: #012;
+    background-color: rgb(34, 0, 21);
     color: #ddd
 }
 
@@ -317,16 +317,16 @@ div.notice h2 {
 .elm_dd_input .elm_dd>a {
     background-color: #0d2741;
     color: #ddd;
-    border: 1px solid #35A;
+    border: 1px solid rgb(170, 51, 140);
     font: 14px "Tahoma", "Arial", sans-serif;
     padding: 1px 15px 1px 2px;
     margin: -1px
 }
 
 .elm_dd_button .elm_dd>a {
-    background-color: rgba(7, 28, 48, 0.737255);
+    background-color: rgba(48, 7, 30, 0.737);
     color: #ddd;
-    border: 1px solid #35A;
+    border: 1px solid rgb(170, 51, 140);
     font: 14px "Tahoma", "Arial", sans-serif;
     padding: 1px 15px 1px 5px;
     margin: -1px
@@ -483,17 +483,17 @@ b.spoiler:focus a {
     margin: 0px 10px;
     color: #37a;
     border: none;
-    border-left: 1px dotted #258;
+    border-left: 1px dotted #9E3264;
     text-align: left
 }
 
 pre {
     padding: 1px 5px;
     margin: 5px 15px;
-    border: 1px dotted #258;
+    border: 1px dotted #9E3264;
     border-right: none;
-    border-left: 1px solid #258;
-    background: rgba(7, 28, 48, 0.737255);
+    border-left: 1px solid #9E3264;
+    background: rgba(48, 7, 30, 0.737);
     overflow-x: auto
 }
 
@@ -504,7 +504,7 @@ textarea,
 button {
     background-color: #0d2741;
     color: #ddd;
-    border: 1px solid #35A;
+    border: 1px solid rgb(170, 51, 140);
     font: 14px "Tahoma", "Arial", sans-serif;
     padding: 0 1px 1px 1px;
     margin: 1px
@@ -527,7 +527,7 @@ optgroup option {
 
 input.submit,
 button {
-    background: rgba(7, 28, 48, 0.737255);
+    background: rgba(48, 7, 30, 0.737);
     padding: 1px 5px;
     cursor: pointer
 }
@@ -716,7 +716,7 @@ span.spinner {
 .textpreview .preview {
     width: 100%;
     box-sizing: border-box;
-    border: 1px solid #35A;
+    border: 1px solid rgb(170, 51, 140);
     margin: 1px;
     padding: 5px;
     text-align: left
@@ -752,7 +752,7 @@ fieldset.submit .textpreview {
 .stealth input:focus,
 .stealth select:hover,
 .stealth select:focus {
-    border: 1px solid #35A;
+    border: 1px solid rgb(170, 51, 140);
     background: #0d2741
 }
 
@@ -774,8 +774,8 @@ fieldset.submit .textpreview {
 
 #menulist div.menubox {
     margin: 0 0 10px 0;
-    border: 1px solid #258;
-    background: rgba(7, 28, 48, 0.737255)
+    border: 1px solid #9E3264;
+    background: rgba(48, 7, 30, 0.737)
 }
 
 #menulist div.menubox div {
@@ -783,8 +783,8 @@ fieldset.submit .textpreview {
 }
 
 #menulist h2 {
-    border-bottom: 1px solid #258;
-    background: rgba(7, 28, 48, 0.737255);
+    border-bottom: 1px solid #9E3264;
+    background: rgba(48, 7, 30, 0.737);
     padding: 1px 3px
 }
 
@@ -849,7 +849,7 @@ fieldset.submit .textpreview {
 }
 
 #support {
-    background: rgba(7, 28, 48, 0.737255);
+    background: rgba(48, 7, 30, 0.737);
     font-size: 12px;
     padding: 4px;
     margin-bottom: 5px;
@@ -879,10 +879,10 @@ fieldset.submit .textpreview {
 
 div.mainbox,
 div.threelayout>div {
-    border: 1px solid #258;
+    border: 1px solid #9E3264;
     margin: 21px 0 -10px 0;
     padding: 5px;
-    background: rgba(7, 28, 48, 0.737255)
+    background: rgba(48, 7, 30, 0.737)
 }
 
 div.mainbox-overflow-hack {
@@ -892,7 +892,7 @@ div.mainbox-overflow-hack {
 }
 
 .mainbox h1 {
-    color: #258;
+    color: #9E3264;
     font-size: 24px;
     margin: -5px 0 15px 0
 }
@@ -958,7 +958,7 @@ div.threelayout>div:last-child {
     margin: 0;
     font-size: 18px;
     font-weight: bold;
-    color: #258
+    color: #9E3264
 }
 
 .threelayout h2 {
@@ -976,7 +976,7 @@ div.threelayout>div:last-child {
 }
 
 .threelayout h1 a {
-    color: #258
+    color: #9E3264
 }
 
 div.maintabs {
@@ -1022,9 +1022,9 @@ div.maintabs>ul>li>div>a {
     box-sizing: border-box;
     height: 21px;
     padding: 1px 7px 0 7px;
-    border: 1px solid #258;
+    border: 1px solid #9E3264;
     border-bottom: none;
-    background-color: #012;
+    background-color: rgb(34, 0, 21);
     color: #37a
 }
 
@@ -1052,7 +1052,7 @@ div.maintabs.bottom {
 
 div.maintabs.bottom>ul li a {
     padding: 4px 7px 2px 7px;
-    border-bottom: 1px solid #258;
+    border-bottom: 1px solid #9E3264;
     border-top: none
 }
 
@@ -1122,20 +1122,20 @@ li.announcement a {
 
 .homepage>div {
     overflow: hidden;
-    border: 1px solid #258;
+    border: 1px solid #9E3264;
     padding: 0 2px 10px 2px;
-    background: rgba(7, 28, 48, 0.737255)
+    background: rgba(48, 7, 30, 0.737)
 }
 
 .homepage h1 {
     margin: 0 0 5px 0;
     font-size: 18px;
     font-weight: bold;
-    color: #258
+    color: #9E3264
 }
 
 .homepage h1 a {
-    color: #258
+    color: #9E3264
 }
 
 .homepage h2 {
@@ -1168,7 +1168,7 @@ li.announcement a {
 .browseopts button {
     padding: 1px 3px;
     color: #ddd;
-    border: 1px solid #258;
+    border: 1px solid #9E3264;
     margin: 0 2px;
     white-space: nowrap
 }
@@ -1237,10 +1237,10 @@ p#searchtabs a {
 
 p#searchtabs a:hover,
 p#searchtabs a.sel {
-    border: 1px solid #35A;
+    border: 1px solid rgb(170, 51, 140);
     border-bottom: none;
     padding: 1px 5px 2px 5px;
-    background: rgba(7, 28, 48, 0.737255)
+    background: rgba(48, 7, 30, 0.737)
 }
 
 #q {
@@ -1302,13 +1302,13 @@ div.thread table {
 }
 
 div.thread tr:not(:last-child) td {
-    border-bottom: 1px solid #258
+    border-bottom: 1px solid #9E3264
 }
 
 div.thread td.tc1 {
     width: 170px;
     padding: 5px 10px;
-    border-right: 1px solid #258
+    border-right: 1px solid #9E3264
 }
 
 div.thread td.tc2 {
@@ -1426,7 +1426,7 @@ div.postsearch td.tc3 {
 }
 
 .releases tr.vn>td {
-    background: rgba(7, 28, 48, 0.737255);
+    background: rgba(48, 7, 30, 0.737);
     font-weight: bold
 }
 
@@ -1510,7 +1510,7 @@ div.postsearch td.tc3 {
 }
 
 .vnreleases summary {
-    background: rgba(7, 28, 48, 0.737255);
+    background: rgba(48, 7, 30, 0.737);
     font-weight: bold;
     width: 100%
 }
@@ -1625,7 +1625,7 @@ div.vndetails .lengthvotefrm>form div>div input {
 
 div#vntags {
     margin: 0 30px 0 30px;
-    border-top: 1px solid #258;
+    border-top: 1px solid #9E3264;
     padding: 3px 5% 0 5%;
     text-align: center
 }
@@ -1655,7 +1655,7 @@ div#vntags {
 }
 
 #tagops label.sec {
-    border-left: 1px solid #258;
+    border-left: 1px solid #9E3264;
     padding-left: 10px
 }
 
@@ -1712,12 +1712,12 @@ div#vntags {
 }
 
 #screenshots tr.rel td {
-    background: rgba(7, 28, 48, 0.737255);
+    background: rgba(48, 7, 30, 0.737);
     font-weight: bold
 }
 
 #screenshots p.rel {
-    background: rgba(7, 28, 48, 0.737255);
+    background: rgba(48, 7, 30, 0.737);
     margin: 0;
     padding: 2px;
     font-weight: bold;
@@ -1744,7 +1744,7 @@ div#vntags {
 }
 
 #screenshots a:hover img {
-    border: 3px solid #258
+    border: 3px solid #9E3264
 }
 
 #scrhide_s0:checked~#screenshots label[for=scrhide_s0],
@@ -1785,9 +1785,9 @@ div#vntags {
     margin-bottom: -10px;
     padding: 0;
     height: 15px;
-    border: 1px solid #258;
+    border: 1px solid #9E3264;
     border-top: none;
-    background: rgba(7, 28, 48, 0.737255);
+    background: rgba(48, 7, 30, 0.737);
     text-align: center
 }
 
@@ -1847,13 +1847,13 @@ div#vntags {
 .reviewbox>div:nth-child(3) {
     box-sizing: border-box;
     padding: 10px;
-    background: rgba(7, 28, 48, 0.737255)
+    background: rgba(48, 7, 30, 0.737)
 }
 
 .reviewbox>div:last-child {
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid #258
+    border-top: 1px solid #9E3264
 }
 
 .reviewbox .myvote {
@@ -1922,7 +1922,7 @@ div#vntags {
 .votegraph td div {
     float: left;
     height: 16px;
-    background-color: #258;
+    background-color: #9E3264;
     margin-right: 2px;
     padding: 0
 }
@@ -1985,7 +1985,7 @@ div#vntags {
 .votebooth td.tc2 div.graph {
     float: left;
     height: 14px;
-    background-color: #258;
+    background-color: #9E3264;
     padding: 0
 }
 
@@ -2012,11 +2012,11 @@ div#vntags {
 }
 
 .vnedit_scr>tr:nth-child(odd)>td {
-    background: rgba(7, 28, 48, 0.737255)
+    background: rgba(48, 7, 30, 0.737)
 }
 
 .vnedit_scr>tr>td {
-    border-bottom: 1px solid #258
+    border-bottom: 1px solid #9E3264
 }
 
 .vnedit_scr>tr>td:nth-child(1) {
@@ -2035,11 +2035,11 @@ div#vntags {
 
 .releases_compare td {
     margin: 0 auto;
-    border: 1px solid #258
+    border: 1px solid #9E3264
 }
 
 .releases_compare td.bg {
-    background: rgba(7, 28, 48, 0.737255)
+    background: rgba(48, 7, 30, 0.737)
 }
 
 .releases_compare td.multi {
@@ -2047,7 +2047,7 @@ div#vntags {
 }
 
 .releases_compare .key {
-    background: rgba(7, 28, 48, 0.737255)
+    background: rgba(48, 7, 30, 0.737)
 }
 
 .vnbrowse .tc_score {
@@ -2355,7 +2355,7 @@ div#vntags {
 }
 
 .imghover div.imghover--warning {
-    border: 1px solid #258;
+    border: 1px solid #9E3264;
     background: #0d2741;
     box-sizing: border-box;
     padding: 10px 5px
@@ -2423,7 +2423,7 @@ table.chare_traits .buts a {
     display: block;
     width: 15px;
     height: 14px;
-    border: 1px solid #258;
+    border: 1px solid #9E3264;
     margin: 0;
     float: left
 }
@@ -2718,7 +2718,7 @@ div.charsum_list .name a {
 }
 
 div.charsum_list .actor {
-    border-top: 1px solid #258;
+    border-top: 1px solid #9E3264;
     padding-top: 3px
 }
 
@@ -2727,7 +2727,7 @@ div.charsum_list .actor b.grayedout {
 }
 
 div.charsum_list .charsum_bubble {
-    background: rgba(7, 28, 48, 0.737255);
+    background: rgba(48, 7, 30, 0.737);
     display: inline-block;
     text-align: left;
     vertical-align: top;
@@ -2826,8 +2826,8 @@ div.charsum_list .charsum_bubble {
     width: 190px;
     padding: 2px;
     margin: 0 0 10px 5px;
-    background: rgba(7, 28, 48, 0.737255);
-    border: 1px solid #258
+    background: rgba(48, 7, 30, 0.737);
+    border: 1px solid #9E3264
 }
 
 .docs ul.index li {
@@ -3028,7 +3028,7 @@ div.lengthlist select {
 
 .ulist .tc_opt textarea:focus {
     height: 50px;
-    border: 1px solid #35A
+    border: 1px solid rgb(170, 51, 140)
 }
 
 .ulist .tc_opt textarea+div {
@@ -3069,7 +3069,7 @@ div.lengthlist select {
     justify-content: center;
     text-align: left;
     white-space: normal;
-    background: rgba(7, 28, 48, 0.737255);
+    background: rgba(48, 7, 30, 0.737);
     overflow: auto;
     font-weight: normal
 }
@@ -3078,7 +3078,7 @@ div.lengthlist select {
     background: #051523;
     width: 600px;
     min-height: 300px;
-    border: 2px solid #258;
+    border: 2px solid #9E3264;
     padding: 10px
 }
 
@@ -3189,7 +3189,7 @@ div.lengthlist select {
     box-sizing: border-box;
     padding: 10px;
     width: 500px;
-    border: 1px solid #258;
+    border: 1px solid #9E3264;
     background: #0d2741;
     position: relative;
     bottom: 0;
@@ -3378,19 +3378,19 @@ table.tgl tfoot td {
 }
 
 table.tgl .tc_you {
-    border-right: 1px solid #258;
-    border-left: 1px solid #258;
+    border-right: 1px solid #9E3264;
+    border-left: 1px solid #9E3264;
     text-align: center
 }
 
 table.tgl .tc_others {
-    border-left: 1px solid #258;
+    border-left: 1px solid #9E3264;
     text-align: center
 }
 
 table.tgl .tc_tagname {
     min-width: 200px;
-    border-right: 1px solid #258
+    border-right: 1px solid #9E3264
 }
 
 table.tgl tbody .tc_tagname {
@@ -3418,14 +3418,14 @@ table.tgl .buts a {
     display: block;
     width: 15px;
     height: 14px;
-    border: 1px solid #258;
+    border: 1px solid #9E3264;
     margin: 0;
     float: left
 }
 
 table.tgl .buts a.l0 {
     border: none;
-    background-color: #258
+    background-color: #9E3264
 }
 
 table.tgl .buts a.l1 {
@@ -3459,7 +3459,7 @@ table.tgl .tc_myspoil {
 
 table.tgl .buts a.sn {
     border: none;
-    background-color: #258
+    background-color: #9E3264
 }
 
 table.tgl .buts a.s0 {
@@ -3478,7 +3478,7 @@ table.tgl .buts a.s2 {
 }
 
 table.tgl .tc_allvote {
-    border-left: 1px solid #258;
+    border-left: 1px solid #9E3264;
     padding: 1px 0 0 30px
 }
 
@@ -3499,7 +3499,7 @@ table.tgl .tagmod_cat td {
 
 div.revision div.rev,
 div.revision table {
-    border: 1px solid #258;
+    border: 1px solid #9E3264;
     margin: 0 auto;
     width: 90%;
     background-color: #0d2741;
@@ -3517,7 +3517,7 @@ div.revision table thead tr td {
 }
 
 div.revision table td {
-    border-right: 1px solid #258;
+    border-right: 1px solid #9E3264;
     padding: 5px
 }
 
@@ -3558,8 +3558,8 @@ div#iv_view {
     position: absolute;
     top: 0px;
     left: 0px;
-    background: rgba(7, 28, 48, 0.737255);
-    border: 1px solid #258;
+    background: rgba(48, 7, 30, 0.737);
+    border: 1px solid #9E3264;
     padding: 5px;
     text-align: center
 }
@@ -3607,8 +3607,8 @@ div#iv_view {
 
 .ivview {
     position: fixed;
-    background: rgba(7, 28, 48, 0.737255);
-    border: 2px solid #258;
+    background: rgba(48, 7, 30, 0.737);
+    border: 2px solid #9E3264;
     padding: 5px;
     text-align: center
 }
@@ -3693,8 +3693,8 @@ div#iv_view {
     position: absolute;
     top: 0px;
     left: 0px;
-    background: #012;
-    border: 1px solid #258;
+    background: rgb(34, 0, 21);
+    border: 1px solid #9E3264;
     padding: 5px;
     width: 600px;
     text-align: center
@@ -3725,7 +3725,7 @@ div#iv_view {
     margin: auto;
     width: 93%;
     height: 1px;
-    border-bottom: 1px solid #258;
+    border-bottom: 1px solid #9E3264;
     margin-bottom: 5px
 }
 
@@ -3783,7 +3783,7 @@ div#iv_view {
 
 .fil_div .slider div {
     margin: 1px;
-    border: 1px solid #35A;
+    border: 1px solid rgb(170, 51, 140);
     float: left;
     height: 12px
 }
@@ -3864,7 +3864,7 @@ p.filselect i {
 }
 
 .advsearch .advnest>tr>td:nth-child(2) div {
-    border-left: 1px solid #258;
+    border-left: 1px solid #9E3264;
     width: 15px;
     position: absolute;
     left: 5px;
@@ -3877,7 +3877,7 @@ p.filselect i {
 }
 
 .advsearch .advnest>tr>td:nth-child(2).start div {
-    border-top: 1px solid #258
+    border-top: 1px solid #9E3264
 }
 
 .advsearch .advnest>tr>td:nth-child(2).start span {
@@ -3886,13 +3886,13 @@ p.filselect i {
     left: -5px;
     top: 0;
     width: 15px;
-    border-top: 1px solid #258;
+    border-top: 1px solid #9E3264;
     height: 1px
 }
 
 .advsearch .advnest>tr>td:nth-child(2).end div {
     bottom: 13px;
-    border-bottom: 1px solid #258
+    border-bottom: 1px solid #9E3264
 }
 
 .advsearch .advnest>tr>td:nth-child(2).mid span {
@@ -3901,7 +3901,7 @@ p.filselect i {
     left: 5px;
     top: 13px;
     width: 15px;
-    border-top: 1px solid #258;
+    border-top: 1px solid #9E3264;
     height: 1px
 }
 
@@ -4005,7 +4005,7 @@ p.filselect i {
 }
 
 .imageflag>div:nth-child(2) {
-    border: 1px solid #258;
+    border: 1px solid #9E3264;
     padding: 5px;
     display: flex;
     justify-content: center;
@@ -4048,7 +4048,7 @@ p.filselect i {
 
 .imageflag>div:nth-child(4) ul li label {
     display: inline-block;
-    border: 1px solid #35A;
+    border: 1px solid rgb(170, 51, 140);
     padding: 7px;
     width: 100px;
     white-space: nowrap;
@@ -4140,7 +4140,7 @@ div.imagebrowse {
 }
 
 .imagebrowse .imagecard>div svg .ruler {
-    stroke: #258;
+    stroke: #9E3264;
     stroke-width: 1;
     stroke-dasharray: 3
 }
@@ -4488,16 +4488,16 @@ a .icons {
 
 svg .border {
     fill: none;
-    stroke: #258
+    stroke: #9E3264
 }
 
 svg .edge polygon.border {
-    fill: #258
+    fill: #9E3264
 }
 
 svg .nodebg {
-    fill: #012;
-    stroke: #012
+    fill: rgb(34, 0, 21);
+    stroke: rgb(34, 0, 21)
 }
 
 svg text {
